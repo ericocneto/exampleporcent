@@ -196,6 +196,9 @@
   .h-\[300px\] {
     height: 300px;
   }
+  .h-dvh {
+    height: 100dvh;
+  }
   .w-4 {
     width: calc(var(--spacing) * 4);
   }
@@ -216,6 +219,9 @@
   }
   .w-\[450px\] {
     width: 450px;
+  }
+  .w-dvw {
+    width: 100dvw;
   }
   .border-collapse {
     border-collapse: collapse;
