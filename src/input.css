@@ -1,5 +1,8 @@
 @import "tailwindcss";
-
+:root {
+    --cinza1: #232522;
+    --amarelo1: #fecc2c;
+}
 .input {
-    @apply rounded-sm bg-gray-100 mb-2 w-60;
+    @apply rounded-sm bg-gray-400 mb-2 w-60 ;
 }

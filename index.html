@@ -10,21 +10,21 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 
-<body class="w-dvw h-dvh bg-gray-100 font-sans">
+<body class="w-dvw h-dvh bg-zinc-900 font-sans">
     <header>
-        <h1 class="text-center text-[2rem] py-20">Calcular Porcentagem</h1>
+        <h1 class="text-[var(--amarelo1)] text-center text-[2rem] py-20">Calcular Porcentagem</h1>
     </header>
-    <main class="bg-gray-200 h-[300px] w-[450px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-sm">
+    <main class="bg-black/40 h-[300px] w-[450px] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-sm shadow-md">
         <section id="conteudo" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <div id="porcento">
-                <label for="ipor">Porcentagem:</label>
+                <label for="ipor" class="text-white">Porcentagem:</label>
                 <p><input type="number" name="" id="ipor" placeholder="porcento de" class="input indent-1" required></p>
             </div>
             <div id="numero">
-                <label for="inum">Número:</label>
+                <label for="inum" class="text-white">Número:</label>
                 <p><input type="number" name="" id="inum" class="input indent-1" placeholder="número referente" required></p>
             </div>
-            <input type="button" class="cursor-pointer block w-60  m-auto  bg-orange-50 hover:bg-orange-100 hover:scale-102 py-1" value="calcular">
+            <input type="button" class="cursor-pointer block w-60  m-auto  bg-[var(--amarelo1)] hover:bg-yellow-200 hover:scale-102 py-1 mt-8 transition-all duration-300 ease-in-out" value="calcular">
         </section>
     </main>
     <footer>
