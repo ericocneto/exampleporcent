@@ -292,6 +292,9 @@
   .indent-1 {
     text-indent: calc(var(--spacing) * 1);
   }
+  .indent-2 {
+    text-indent: calc(var(--spacing) * 2);
+  }
   .font-sans {
     font-family: var(--font-sans);
   }
